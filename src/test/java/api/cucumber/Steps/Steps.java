@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 public class Steps {
     @Given("given{int}")
     public void given(int arg0) {
+        System.out.println("give int value of age");
     }
 
     @When("when")
